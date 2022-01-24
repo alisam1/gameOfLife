@@ -1,0 +1,29 @@
+.grid {
+  width: 100%;
+  max-width: 420px;
+  line-height: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  cursor: pointer;
+  }
+
+.off {
+  background-color: hsl(59, 72%, 80%);
+}
+
+.on {
+  background-color: green;
+}
+  
+.box:hover { 
+  background: #118838;
+}
